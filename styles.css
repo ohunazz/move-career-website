@@ -263,3 +263,123 @@ a {
     line-height: 24px; /* 120% */
     margin-bottom: 41px;
 }
+
+/*massage-section*/
+
+.massage-section {
+    padding: 110px 100px;
+}
+
+.massage-section h3 {
+    color: var(--text-1, #323b4b);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; /* 120.833% */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.massage-section p {
+    color: var(--text-3, #8a94a6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.massage-section_bottom {
+    height: 620px;
+    width: 789px;
+    margin-left: 213px;
+}
+
+.top-section input {
+    width: 375px;
+    height: 65px;
+    border: 2px solid #8a94a6;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    background: var(--bg-4, #fff);
+    padding-left: 20px;
+    margin-bottom: 43px;
+}
+
+.top-section input:first-child {
+    margin-right: 33px;
+}
+
+.middle-section input {
+    width: 375px;
+    height: 65px;
+    border: 2px solid #8a94a6;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+    background: var(--bg-4, #fff);
+    padding-left: 20px;
+    margin-bottom: 43px;
+}
+
+.middle-section input:first-child {
+    margin-right: 33px;
+}
+
+.bottom-section {
+    margin-bottom: 45px;
+}
+
+.bottom-section textarea {
+    width: 787px;
+    height: 296px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #8a94a6;
+    background: var(--bg-4, #fff);
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.checkbox-bottom label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin-right: 20%;
+    color: #8a94a6;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+#submit {
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    border-radius: 10px;
+    background: #377dff;
+    width: calc((100% - 20%) / 2 * 0.75);
+    height: 66px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#checkbox {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bottom-section textarea::placeholder {
+    margin-right: 33px;
+}

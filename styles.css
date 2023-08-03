@@ -22,6 +22,14 @@ a {
     font-size: 0;
 }
 
+:root {
+    --white-color: #fff;
+    --grey-color: #8a94a6;
+    --blue-color: #377dff;
+    --dark-grey-color: #323b4b;
+    --darker-white-color: #fcfbfc;
+}
+
 /* Header*/
 
 .logo {
@@ -35,9 +43,7 @@ a {
 }
 
 .navigation a {
-    color: #8a94a6;
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -61,17 +67,16 @@ a {
 }
 
 .navigation_action button {
-    color: white;
+    color: var(--white-color);
     width: 179px;
     height: 57px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: var(--primary-1, #377dff);
+    background: var(--blue-color);
     vertical-align: middle;
     display: inline-block;
     border: none;
     text-align: center;
-    font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -85,8 +90,7 @@ a {
 }
 
 .help-section h2 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -97,9 +101,8 @@ a {
 }
 
 .text-top {
-    color: var(--text-3, #8a94a6);
+    color: var(--grey-color);
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -117,7 +120,7 @@ a {
     margin-right: 32px;
     padding: 40px 30px;
     border-radius: 15px;
-    background: #fcfbfc;
+    background: var(--darker-white-color);
     vertical-align: top;
 }
 
@@ -126,8 +129,7 @@ a {
 }
 
 .email h3 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -138,8 +140,7 @@ a {
 }
 
 .email p {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -149,8 +150,7 @@ a {
 }
 
 .email a {
-    color: var(--primary-1, #377dff);
-    font-family: Inter;
+    color: var(--blue-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -169,7 +169,7 @@ a {
     margin-right: 32px;
     padding: 40px 30px;
     border-radius: 15px;
-    background: #fcfbfc;
+    background: var(--darker-white-color);
     vertical-align: top;
 }
 
@@ -178,8 +178,7 @@ a {
 }
 
 .direction h3 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -189,8 +188,7 @@ a {
 }
 
 .direction p {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -200,8 +198,7 @@ a {
 }
 
 .direction_text {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -210,7 +207,7 @@ a {
 }
 
 .direction a {
-    color: var(--primary-1, #377dff);
+    color: var(--blue-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -224,7 +221,7 @@ a {
     display: inline-block;
     padding: 40px 30px;
     border-radius: 15px;
-    background: #fcfbfc;
+    background: var(--darker-white-color);
     vertical-align: top;
 }
 
@@ -233,20 +230,17 @@ a {
 }
 
 .call h3 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 121.429% */
     text-align: left;
-
     margin-bottom: 21px;
 }
 
 .call p {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -255,8 +249,7 @@ a {
 }
 
 .call a {
-    color: var(--primary-1, #377dff);
-    font-family: Inter;
+    color: var(--blue-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -271,8 +264,7 @@ a {
 }
 
 .massage-section h3 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -282,9 +274,8 @@ a {
 }
 
 .massage-section p {
-    color: var(--text-3, #8a94a6);
+    color: var(--grey-color);
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -302,11 +293,11 @@ a {
 .top-section input {
     width: 375px;
     height: 65px;
-    border: 2px solid #8a94a6;
+    border: 2px solid var(--grey-color);
     flex-shrink: 0;
     border-radius: 10px;
 
-    background: var(--bg-4, #fff);
+    background: var(--white-color);
     padding-left: 20px;
     margin-bottom: 43px;
 }
@@ -318,11 +309,11 @@ a {
 .middle-section input {
     width: 375px;
     height: 65px;
-    border: 2px solid #8a94a6;
+    border: 2px solid var(--grey-color);
     flex-shrink: 0;
     border-radius: 10px;
 
-    background: var(--bg-4, #fff);
+    background: var(--white-color);
     padding-left: 20px;
     margin-bottom: 43px;
 }
@@ -340,8 +331,8 @@ a {
     height: 296px;
     flex-shrink: 0;
     border-radius: 10px;
-    border: 2px solid #8a94a6;
-    background: var(--bg-4, #fff);
+    border: 2px solid var(--grey-color);
+    background: var(--white-color);
     padding-left: 25px;
     padding-top: 25px;
 }
@@ -351,7 +342,7 @@ a {
     vertical-align: middle;
     width: 50%;
     margin-right: 20%;
-    color: #8a94a6;
+    color: var(--grey-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -363,10 +354,10 @@ a {
     border: none;
     vertical-align: middle;
     border-radius: 10px;
-    background: #377dff;
+    background: var(--blue-color);
     width: calc((100% - 20%) / 2 * 0.75);
     height: 66px;
-    color: #fff;
+    color: var(--white-color);
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -399,8 +390,7 @@ a {
 }
 
 .footer-left_text {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -421,8 +411,7 @@ a {
 }
 
 .footer-menu h4 {
-    color: var(--text-1, #323b4b);
-    font-family: Inter;
+    color: var(--dark-grey-color);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -436,8 +425,7 @@ a {
 }
 
 .footer-section a {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -447,8 +435,7 @@ a {
 }
 
 .template {
-    color: var(--text-3, #8a94a6);
-    font-family: Inter;
+    color: var(--grey-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;

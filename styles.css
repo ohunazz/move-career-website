@@ -33,13 +33,15 @@ a {
 /* Header*/
 
 .logo {
-    height: 54px;
+    height: auto;
+    width: 182px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .navigation {
     padding: 40px 100px;
     align-items: center;
-    position: relative;
 }
 
 .navigation a {
@@ -61,9 +63,11 @@ a {
 }
 
 .navigation_action {
-    position: absolute;
-    top: 42px;
-    right: 100px;
+    width: calc(100% - 182px);
+    margin-left: -5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
 }
 
 .navigation_action button {
@@ -109,9 +113,6 @@ a {
     line-height: 35px; /* 175% */
     align-items: center;
     margin-bottom: 52px;
-}
-
-.help-section_bottom {
 }
 
 .email {

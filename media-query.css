@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+    .navigation,
+    .help-section,
+    .massage-section,
+    .footer-section {
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+}
+
+@media (max-width: 1100px) {
+    html {
+        font-size: 50%;
+    }
+    .navigation,
+    .help-section,
+    .massage-section,
+    .footer-section {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .navigation_action {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .email,
+    .direction {
+        width: calc((100% - 3.2rem) / 2);
+    }
+
+    .direction {
+        margin-right: 0;
+    }
+
+    .email {
+        margin-bottom: 3.2rem;
+    }
+
+    .call {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+}

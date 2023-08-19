@@ -91,6 +91,10 @@ a {
     line-height: 2.4rem; /* 120% */
 }
 
+.icon-menu {
+    display: none;
+}
+
 /*help-section*/
 
 .help-section {
@@ -101,7 +105,7 @@ a {
     color: var(--dark-grey-color);
     font-size: 6rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 7.3rem; /* 121.667% */
     text-align: center;
     margin-bottom: 3.3rem;
@@ -283,16 +287,14 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: 3.5rem; /* 175% */
-    margin-bottom: 5.2rem;
-    width: 55%;
-    margin-left: 25%;
+    margin: 0 auto;
+    margin-bottom: 5.8rem;
 }
 
 .massage-section_bottom {
     height: 62rem;
     width: 55%;
-
-    margin-left: 25%;
+    margin: 0 auto;
 }
 
 .top-section input {
@@ -343,9 +345,9 @@ a {
     display: inline-block;
     vertical-align: middle;
     width: 50%;
-    margin-right: 20%;
+    margin-right: 25%;
     color: var(--grey-color);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     line-height: 2.4rem;
     cursor: pointer;
@@ -357,12 +359,13 @@ a {
     vertical-align: middle;
     border-radius: 1rem;
     background: var(--blue-color);
-    width: calc((100% - 20%) / 2 * 0.75);
+    padding: 0 5rem;
     height: 6.6rem;
     color: var(--white-color);
     font-size: 2rem;
     font-weight: 600;
     line-height: 2.4rem;
+    text-align: right;
 }
 
 #checkbox {
@@ -378,6 +381,12 @@ a {
 }
 
 /*Footer*/
+
+.footer-menu {
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 360px) * 0.65 / 4);
+}
 
 .footer-section {
     padding: 11rem 10rem;

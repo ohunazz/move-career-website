@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .navigation,
     .help-section,
     .massage-section,
@@ -19,13 +19,20 @@
         padding-right: 50px;
         padding-left: 50px;
     }
+} */
 
+@media (max-width: 1000px) {
+    .navigation,
+    .help-section,
+    .massage-section,
+    .footer-section {
+        padding-right: 75px;
+        padding-left: 75px;
+    }
     .navigation_action {
         display: none;
     }
-}
 
-@media (max-width: 900px) {
     .email,
     .direction {
         width: calc((100% - 3.2rem) / 2);
@@ -43,5 +50,121 @@
         display: block;
         margin: 0 auto;
         width: 50%;
+    }
+
+    .help-section h2,
+    .massage-section h3 {
+        font-size: 4.8rem;
+        font-weight: 800;
+    }
+
+    .massage-section_bottom {
+        width: 100%;
+    }
+
+    .top-section input {
+        width: calc((100% - 2rem) / 2);
+    }
+
+    .checkbox-bottom label {
+        margin-right: 30%;
+    }
+
+    .footer-section a {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .footer-left,
+    .footer-menu:not(:nth-child(5)) {
+        margin-right: 8rem;
+    }
+
+    .footer-1000 {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo,
+    .footer-logo {
+        height: auto;
+        width: 14.2rem;
+    }
+
+    .footer-logo {
+        margin-bottom: 2.4rem;
+    }
+
+    .navigation,
+    .help-section,
+    .massage-section,
+    .footer-section {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .help-section h2,
+    .massage-section h3 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 5.8rem;
+        text-align: left;
+    }
+
+    .help-section_top p,
+    .massage-section p {
+        text-align: left;
+    }
+
+    .email,
+    .direction,
+    .call {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+
+    .direction {
+        margin-bottom: 3.2rem;
+    }
+
+    .massage-section {
+        margin-bottom: 10rem;
+    }
+
+    .top-section input,
+    .middle-section input {
+        width: 100%;
+    }
+
+    .checkbox-bottom label {
+        margin-bottom: 0.8rem;
+    }
+
+    #submit {
+        margin-bottom: 15rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .checkbox-bottom label {
+        margin-bottom: 2rem;
+    }
+
+    .footer-section {
+        margin-top: 10rem;
+    }
+
+    .footer-left {
+        margin-top: 10rem;
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .footer-menu {
+        width: calc(100% / 5);
     }
 }
